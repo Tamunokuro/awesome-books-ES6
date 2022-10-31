@@ -12,12 +12,11 @@ export default class AwesomeBook {
   }
 
   // Remove Button
-  static removeBook(btnAdderss, bookArray, btnIndex, parentDiv) {
+  removeBook(btnAdderss, bookArray, btnIndex, parentDiv) {
     btnAdderss.addEventListener('click', () => {
       bookArray.splice(btnIndex, 1);
       localStorage.setItem('book', JSON.stringify(bookArray));
       parentDiv.remove();
-      window.location.reload();
     });
   }
 

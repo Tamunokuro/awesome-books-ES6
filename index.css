@@ -198,9 +198,10 @@ input[type='text'] {
 }
 
 footer {
+  display: flex;
+  justify-content: center;
   border-top: 1px solid #dcdcdc;
   padding: 1rem;
-  position: absolute;
   top: 90%;
   width: 100%;
   text-align: center;
