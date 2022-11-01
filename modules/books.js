@@ -17,6 +17,7 @@ export default class AwesomeBook {
       bookArray.splice(btnIndex, 1);
       localStorage.setItem('book', JSON.stringify(bookArray));
       parentDiv.remove();
+      window.location.reload();
     });
   }
 

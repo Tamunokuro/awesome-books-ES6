@@ -6,6 +6,6 @@ const contact = () => {
     document.getElementById('add-book').style.display = 'none';
     document.getElementById('contact-section').style.display = 'block';
   });
-}
+};
 
 export default contact;

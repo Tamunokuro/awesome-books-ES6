@@ -6,7 +6,6 @@ const booklist = () => {
     document.getElementById('add-book').style.display = 'none';
     document.getElementById('contact-section').style.display = 'none';
     document.getElementById('footer').style.position = '';
-
   });
 }
 

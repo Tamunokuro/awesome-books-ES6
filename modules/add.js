@@ -7,6 +7,6 @@ const addBook = () => {
     document.getElementById('contact-section').style.display = 'none';
     document.getElementById('footer').style.position = 'absolute';
   });
-}
+};
 
 export default addBook;
