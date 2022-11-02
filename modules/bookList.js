@@ -7,6 +7,6 @@ const booklist = () => {
     document.getElementById('contact-section').style.display = 'none';
     document.getElementById('footer').style.position = '';
   });
-}
+};
 
 export default booklist;

@@ -200,7 +200,7 @@ input[type='text'] {
 footer {
   display: flex;
   justify-content: center;
-  position: absolute;
+  position: fixed;
   border-top: 1px solid #dcdcdc;
   padding: 1rem;
   top: 90%;
