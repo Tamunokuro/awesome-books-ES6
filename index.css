@@ -1,0 +1,215 @@
+/* stylelint-disable no-descending-specificity */
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
+
+/* Fonts */
+@font-face {
+  font-family: sm;
+  src: url("./fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: md;
+  src: url("./fonts/Lato-Bold.ttf");
+}
+
+@font-face {
+  font-family: lg;
+  src: url("./fonts/Lato-Black.ttf");
+}
+
+body {
+  font-family: 'md';
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+/* Main Display */
+#add-book,
+#contact-section {
+  display: none;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.hero-container h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 20px 0;
+  padding: 5px;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+#book-store {
+  border: 2px solid #000;
+  border-radius: 10px;
+  margin: 35px 0;
+}
+
+#book-list {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.book-card {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  padding: 0.8rem;
+}
+
+.book-card:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+.book {
+  font-size: 1.2rem;
+}
+
+.remove {
+  padding: 0.5rem 1.2rem;
+  border-radius: 5px;
+  border: 0;
+  background-color: #c7c7d3;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.remove:hover {
+  background-color: #94949e;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+input[type='text'] {
+  width: 80%;
+  margin: 0.5rem auto;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+#add-btn {
+  width: 30%;
+  margin: 0.5rem auto;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 0;
+  background-color: #3cb371;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+#add-btn:hover {
+  background-color: #2e7c51;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin: 20px auto;
+  border: 1px solid #dcdcdc;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  list-style-type: none;
+}
+
+.nav-item {
+  margin: 10px;
+  cursor: pointer;
+}
+
+#addbook {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 0 1rem;
+}
+
+.logo {
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+/* Contact section */
+#contact-section {
+  width: 50%;
+  margin: 3rem auto 0;
+}
+
+#contact-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+#contact-section p {
+  font-size: 1.2rem;
+  font-family: 'sm';
+  margin-bottom: 1.5rem;
+}
+
+#contact-section p #break-line {
+  display: block;
+  font-size: 1.2rem;
+  font-family: 'sm';
+  margin-bottom: 1.5rem;
+  margin-left: 0.5rem;
+}
+
+#contact-section ul {
+  list-style: disc;
+  margin-left: 2rem;
+}
+
+#contact-section ul li {
+  margin-bottom: 0.8rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  border-top: 1px solid #dcdcdc;
+  padding: 1rem;
+  top: 90%;
+  width: 100%;
+  text-align: center;
+}
+
+/* Date */
+#date {
+  text-align: right;
+  margin-right: 3rem;
+}
