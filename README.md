@@ -6,7 +6,7 @@
 
 - HTML
 - CSS
-- JS
+- JavaScript
 
 👤 **Author1**
 - GitHub: [@Tamunokuro](https://github.com/Tamunokuro)
